@@ -1,0 +1,5 @@
+/user/list :
+  controller : Peg\Controller\UserController::list
+
+/article/list : 
+  controller: Peg\Controller\ArticleController::list

@@ -1,0 +1,27 @@
+{
+    "name": "peg/routing",
+    "description": "Simple Routing test App",
+    "authors": [
+        {
+            "name": "Peg",
+            "email": "rvergne63200@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.1.17"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "larapack/dd": "^1.1",
+        "symfony/yaml": "^6.4"
+    },
+    "autoload": {
+        "psr-4" : { "Peg\\": ["src"] }
+    }
+}

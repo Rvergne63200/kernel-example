@@ -1,0 +1,3 @@
+Peg\Service\UserService :
+  params :
+    max : 800
