@@ -2,11 +2,9 @@
 
 namespace Peg\Service;
 
-use Peg\System\Http\Request;
-
-class ArticleService
+class ArticleService implements ArticleServiceInterface
 {
-    public function getArticles()
+    public function getArticles(): array
     {
         return [
             [

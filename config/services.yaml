@@ -1,3 +1,5 @@
-Peg\Service\UserService :
-  params :
-    max : 800
+Peg\Service\UserService:
+  params:
+    max: 800
+
+Peg\Service\ArticleService:
